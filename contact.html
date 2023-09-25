@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 
 <html>
-
-<title>MSOA</title>
-<link rel="stylesheet" type="text/css" href="css/index.css" />
-
-
-<body>
+<title>Contact MSOA</title>
+<link rel="stylesheet" type="text/css" href="css/contact.css" />
 
 <header>
     <div class="top">
@@ -58,6 +54,34 @@
       </div>
   </header>
 
-</body>
 
+<body>
+    <h1>Please use this form to contact MSOA</h1>
+    <h2> &emsp; This is NOT a form to report or complain about referees. Any submission with this goal will not be read nor responded to.</h2>
+    <div class="content">
+        <form action="./send.php" method="post">
+          <div class="forms">
+            <label> <span>Full name:&emsp; </span>
+            <input type="text" class="input_text" name="name" id="name"/>
+            </label>
+            <label> <span>Email:&emsp; </span>
+            <input type="text" class="input_text" name="email" id="email"/>
+            </label>
+            <label> <span>Subject:&emsp; </span>
+            <input type="text" class="input_text" name="subject" id="subject"/>
+            </label>
+            <span>Message:&emsp; </span>
+            <label>
+            <textarea class="message" name="feedback" id="feedback"></textarea>
+            </label>
+            <label>
+                    <input type="submit" class="button" value="Send"/>
+            </label>
+          </div>
+        </form>
+      </div>
+    
+
+</body>
 </html>
+
