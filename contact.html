@@ -58,28 +58,21 @@
 <body>
     <h1>Please use this form to contact MSOA</h1>
     <h2> &emsp; This is NOT a form to report or complain about referees. Any submission with this goal will not be read nor responded to.</h2>
+    
     <div class="content">
-        <form action="./send.php" method="post">
-          <div class="forms">
-            <label> <span>Full name:&emsp; </span>
-            <input type="text" class="input_text" name="name" id="name"/>
-            </label>
-            <label> <span>Email:&emsp; </span>
-            <input type="text" class="input_text" name="email" id="email"/>
-            </label>
-            <label> <span>Subject:&emsp; </span>
-            <input type="text" class="input_text" name="subject" id="subject"/>
-            </label>
-            <span>Message:&emsp; </span>
-            <label>
-            <textarea class="message" name="feedback" id="feedback"></textarea>
-            </label>
-            <label>
-                    <input type="submit" class="button" value="Send"/>
-            </label>
-          </div>
+        <form action="https://getform.io/f/a1e65b61-bfd0-4c83-93aa-8f8a6e1bda06" method="POST">
+            Full Name:<br><br>
+            <input type="text" name="name"> <br><br>
+            Email:<br><br>
+            <input type="email" name="email"> <br><br>
+            Subject:<br><br>
+            <input type="text" name="subject"> <br><br>
+            <!-- add hidden Honeypot input to prevent spams -->
+            Message:<br><br>
+            <input type="text" name="message" class="message"> <br><br>
+            <button type="submit">Send</button>
         </form>
-      </div>
+    </div>
     
 
 </body>
