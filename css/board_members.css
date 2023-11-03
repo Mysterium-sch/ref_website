@@ -1,0 +1,194 @@
+ /* Nav and header */
+h1 {
+  font-size: 39pt;
+  margin-bottom:0pt;
+}
+
+h2 {
+  font-size: 30pt;
+  font-family: cursive;
+  margin: 0pt;
+}
+
+ul {
+  position: relative;
+  left: 15%;
+  top: 5%;
+  display: inline-flex;
+  flex-direction: row;
+  list-style-type: none;
+  row-gap: 10px;
+  column-gap: 10%;
+}
+
+li {
+  padding: 5px;
+  color: black;
+  background-color: yellow;
+  border: 2pt solid red;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.image {
+  width: 15%;
+  box-sizing: border-box;
+}
+
+.homeb {
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+
+.homeb:hover {
+  background-color: red;
+  padding-top: 5pt;
+  padding-bottom: 10pt;
+}
+
+.top {
+  background-color: white;
+  display: inline-flex;
+  flex-direction: row;
+  column-gap: 20px;
+  width: 100%;
+  background-color: teal;
+border: 2pt solid red;
+margin-bottom: 0pt;
+}
+
+.top2 {
+  width: 60%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.dropping {
+background-color: transparent;
+border: none;
+margin: 0;
+padding: 0;
+text-align: inherit;
+font: inherit;
+border-radius: 0;
+appearance: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+overflow: hidden;
+background-color: #333;
+font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* The drop container */
+.drop {
+text-align: center;
+width: 100pt;
+float: left;
+overflow: hidden;
+}
+
+/* drop button */
+.drop .dropping {
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .drop:hover .dropping {
+background-color: red;
+}
+
+/* drop content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the drop */
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+/* Add a grey background color to drop links on hover */
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+/* Show the drop menu on hover */
+.drop:hover .dropdown-content {
+display: block;
+}
+
+@media screen and (max-width: 1300px){
+
+  .image {
+      width: 0px;
+      height: 0px;
+  }
+  
+  }
+
+
+
+
+  /* page */
+
+  .adjust {
+    position: relative;
+    left: 12%;
+    width: 75%;
+    height: 1375px;
+    align-self: center;
+    border: 30px solid red;
+}
+
+.tit {
+    position: relative;
+    left: 28%;
+    font-size: 50pt;
+}
+

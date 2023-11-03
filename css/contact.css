@@ -34,12 +34,12 @@ h2 {
 ul {
     position: relative;
     left: 15%;
-    top: 10%;
+    top: 5%;
     display: inline-flex;
     flex-direction: row;
     list-style-type: none;
     row-gap: 10px;
-    column-gap: 20%;
+    column-gap: 10%;
 }
 
 li {
@@ -131,6 +131,8 @@ margin-bottom: 0pt;
 
 /* The drop container */
 .drop {
+  text-align: center;
+  width: 100pt;
   float: left;
   overflow: hidden;
 }

@@ -162,6 +162,7 @@ margin-bottom: 0pt;
 .drop:hover .dropdown-content {
   display: block;
 }
+
 @media screen and (max-width: 1300px){
 
   .image {
