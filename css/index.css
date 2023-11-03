@@ -2,6 +2,7 @@
   h1 {
     font-size: 39pt;
     margin-bottom:0pt;
+    flex-wrap: wrap;
 }
 
 h2 {
@@ -18,7 +19,8 @@ ul {
     flex-direction: row;
     list-style-type: none;
     row-gap: 10px;
-    column-gap: 10%;
+    column-gap: 2%;
+    flex-wrap: wrap;
 }
 
 li {
@@ -265,4 +267,12 @@ li:hover {
 .begining2:hover { 
     background-color: #554971; 
     color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  overflow-x: hidden;
 }

@@ -18,7 +18,15 @@ ul {
   flex-direction: row;
   list-style-type: none;
   row-gap: 10px;
-  column-gap: 10%;
+  column-gap: 2%;
+  flex-wrap: wrap;
+}
+body {
+  overflow-x: hidden;
+}
+
+header {
+  overflow-x: hidden;
 }
 
 li {
