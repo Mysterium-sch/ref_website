@@ -59,7 +59,7 @@ a {
     flex-direction: row;
     column-gap: 20px;
     width: 100%;
-    background-color: teal;
+    background-color: #ccbc94;
 border: 2pt solid red;
 margin-bottom: 0pt;
 }
@@ -189,7 +189,7 @@ margin-bottom: 0pt;
     display: inline-flex;
     flex-direction: row;
     color: white;
-    background-color: #63768d; 
+    background-color: #3e5a2c; 
     box-sizing: border-box;
     row-gap: 10px;
     column-gap: 10px;
@@ -219,11 +219,6 @@ margin-bottom: 0pt;
     column-gap: 10px;
 }
 
-li:hover {
-    background-color: #554971; 
-}
-
-
 
 .begining1 {
     width: 99%;
@@ -234,7 +229,7 @@ li:hover {
     flex-direction: row;
     color: white;
     box-sizing: border-box;
-    background-color: #63768d;
+    background-color: #3e5a2c;
     row-gap: 10px;
     column-gap: 10px;
     align-items: center;
@@ -250,7 +245,7 @@ li:hover {
     justify-content: center;
     display: inline-flex;
     flex-direction: row;
-    background-color: #8ac6d0; 
+    background-color: #9aad55; 
     color: #36213e;
     box-sizing: border-box;
     row-gap: 10px;
@@ -261,14 +256,17 @@ li:hover {
     margin-bottom: 20px;
 }
 .begining1:hover { 
-    background-color: #554971; 
+    background-color: #4c8527; 
     color: white;
 }
 .begining2:hover { 
-    background-color: #554971; 
+    background-color: #4c8527; 
     color: white;
 }
-
+.begining:hover { 
+  background-color: #4c8527; 
+  color: white;
+}
 body {
   overflow-x: hidden;
 }

@@ -65,7 +65,7 @@ a {
   flex-direction: row;
   column-gap: 20px;
   width: 100%;
-  background-color: teal;
+  background-color: #ccbc94;
 border: 2pt solid red;
 margin-bottom: 0pt;
 }
@@ -196,7 +196,8 @@ display: block;
 
 .tit {
     position: relative;
-    left: 28%;
+    align-self: center;
+    text-align: center;
     font-size: 50pt;
 }
 
